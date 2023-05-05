@@ -1,0 +1,41 @@
+/* Estilos para os títulos */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para as capas */
+  .manga {
+    display: inline-block;
+    margin: 35px 50px 25px 25px;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(38, 93, 175);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .manga img {
+    max-width: 100%;
+    max-height: 200%;
+    vertical-align: middle;
+  }
+  
+  .titulo {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }

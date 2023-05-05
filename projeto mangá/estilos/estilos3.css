@@ -1,0 +1,42 @@
+.manga-item {
+    text-align: center;
+  }
+  
+  .manga-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .manga-item h3 {
+    margin-top: 20px;
+  }
+  
+  .manga-item .resumo {
+    margin-top: 10px;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .manga-item .resumo.expandido {
+    max-height: none;
+  }
+  
+  .ver-mais {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #202020;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .manga-item h3 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
